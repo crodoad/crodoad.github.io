@@ -1,0 +1,19 @@
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+@media (min-width: 768px) {
+  .bg-header {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Kate-Upton-Ice.jpg")no-repeat right;
+    background-size: contain;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .bg-header {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/f/ff/Kate-Upton-Ice.jpg")no-repeat right;
+    background-size: cover;
+    height: 25rem;
+  }
+}
